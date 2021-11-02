@@ -3,13 +3,13 @@ require "proc/unbind"
 using Proc::Unbind
 
 class X
-	attr_accessor :value
+  attr_accessor :value
 end
 
 
 disp = proc {
-	p self
-	p @value
+  p self
+  p @value
 }
 disp.call
 #=> main

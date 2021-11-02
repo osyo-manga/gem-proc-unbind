@@ -3,9 +3,9 @@ require "proc/unbind"
 using Proc::Unbind
 
 expr = proc { |*args, &block|
-	p self
-	p args
-	p block
+  p self
+  p args
+  p block
 }
 
 #######################################
